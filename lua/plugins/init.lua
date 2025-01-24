@@ -5,6 +5,7 @@ return {
   { import = 'plugins.spec.ccc' },
   { import = "plugins.spec.cd-project" },
   { import = "plugins.spec.cloak" },
+  { import = "plugins.spec.comment" },
   { import = "plugins.spec.codesnap" },
   { import = "plugins.spec.dropbar" },
   { import = "plugins.spec.helpview" },
@@ -19,6 +20,12 @@ return {
   { import = "plugins.spec.notify" },
   -- { import = "plugins.spec.precognition" },
   { import = "plugins.spec.statuscol" },
+  { import = "plugins.spec.tiny-code-action" },
+  { import = "plugins.spec.tiny-inline-diagnostic" },
+  { import = "plugins.spec.todo-comments" },
+  { import = "plugins.spec.trouble" },
+  { import = "plugins.spec.ts-autotag" },
+
 
 
 
