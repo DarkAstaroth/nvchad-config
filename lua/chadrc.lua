@@ -8,8 +8,7 @@ local M = {
 }
 
 M.base46 = {
-  transparency = true,
-  theme = "bearded-arc",
+  theme = "everforest_light",
   integrations = {
     'hop',
     'markview',
@@ -20,17 +19,6 @@ M.base46 = {
   -- 	Comment = { italic = true },
   -- 	["@comment"] = { italic = true },
   -- },
-}
-
-
-
-M.base46.hl_add = {
-  MarkviewLayer2 = { bg = "#171B21" },
-  MarkviewCode = { link = "MarkviewLayer2" },
-  HelpviewCode = { link = "MarkviewLayer2" },
-  HelpviewInlineCode = { link = "MarkviewInlineCode" },
-  HelpviewCodeLanguage = { link = "MarkviewCode" },
-  ["@markup.raw.block.markdown"] = { link = "MarkviewLayer2" },
 }
 
 -- M.nvdash = { load_on_startup = true }
