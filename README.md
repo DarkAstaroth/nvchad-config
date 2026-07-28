@@ -108,6 +108,7 @@ Al abrir Neovim por primera vez, [lazy.nvim](https://github.com/folke/lazy.nvim)
 | Plugin | Descripción |
 |--------|-------------|
 | [hop.nvim](https://github.com/smoka7/hop.nvim) | Navegación visual rápida por el buffer |
+| [git-blame.nvim](https://github.com/f-person/git-blame.nvim) | Blame inline en cada línea mientras navegas |
 | [neogit](https://github.com/NeogitOrg/neogit) | Interfaz Git completa dentro de Neovim |
 | [trouble.nvim](https://github.com/folke/trouble.nvim) | Panel de errores y diagnósticos LSP |
 | [tiny-code-action](https://github.com/rachartier/tiny-code-action.nvim) | Code actions con preview via Telescope |

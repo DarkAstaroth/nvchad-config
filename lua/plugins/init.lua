@@ -15,6 +15,7 @@ return {
   -- { import = "plugins.spec.markview" },
   -- { import = "plugins.spec.matchup" },
   { import = "plugins.spec.md-preview" },
+  { import = "plugins.spec.git-blame" },
   { import = "plugins.spec.neogit" },
   { import = "plugins.spec.noice" },
   { import = "plugins.spec.notify" },
