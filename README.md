@@ -16,7 +16,7 @@ Al abrir Neovim por primera vez, [lazy.nvim](https://github.com/folke/lazy.nvim)
 
 ## Tema
 
-- **Colorscheme:** `everforest_light`
+- **Colorscheme:** `everforest`
 - **Transparencia:** activada
 - **Fuente recomendada:** JetBrainsMono Nerd Font
 
