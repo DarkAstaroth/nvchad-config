@@ -41,6 +41,7 @@ return {
   { import = "plugins.spec.mini-ai" },
   { import = "plugins.spec.oil" },
   { import = "plugins.spec.nvim-tree" },
+  { import = "plugins.spec.telescope" },
   { import = "plugins.spec.zen-mode" },
 
 
