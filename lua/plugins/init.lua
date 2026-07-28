@@ -27,8 +27,14 @@ return {
   { import = "plugins.spec.todo-comments" },
   { import = "plugins.spec.trouble" },
   { import = "plugins.spec.ts-autotag" },
-
-
+  { import = "plugins.spec.dashboard" },
+  { import = "plugins.spec.harpoon" },
+  { import = "plugins.spec.indent-blankline" },
+  { import = "plugins.spec.neotest" },
+  { import = "plugins.spec.spectre" },
+  { import = "plugins.spec.surround" },
+  { import = "plugins.spec.ufo" },
+  { import = "plugins.spec.undotree" },
 
 
   {
@@ -45,13 +51,13 @@ return {
     end,
   },
 
-  -- {
-  -- 	"nvim-treesitter/nvim-treesitter",
-  -- 	opts = {
-  -- 		ensure_installed = {
-  -- 			"vim", "lua", "vimdoc",
-  --      "html", "css"
-  -- 		},
-  -- 	},
-  -- },
+  {
+    "nvim-treesitter/nvim-treesitter",
+    opts = {
+      ensure_installed = {
+        "vim", "lua", "vimdoc",
+        "html", "css", "typescript", "javascript", "vue", "json",
+      },
+    },
+  },
 }

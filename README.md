@@ -65,6 +65,57 @@ Al abrir Neovim por primera vez, [lazy.nvim](https://github.com/folke/lazy.nvim)
 | `<leader><leader>c` | Saltar al inicio de líneas |
 | `<leader><leader>l` | Saltar a palabras en la línea actual |
 
+### Harpoon — navegación entre archivos
+
+| Atajo | Acción |
+|-------|--------|
+| `<leader>ha` | Agregar archivo actual a Harpoon |
+| `<leader>hh` | Abrir menú de Harpoon |
+| `<leader>h1` | Ir al archivo 1 |
+| `<leader>h2` | Ir al archivo 2 |
+| `<leader>h3` | Ir al archivo 3 |
+| `<leader>h4` | Ir al archivo 4 |
+
+### Undotree
+
+| Atajo | Acción |
+|-------|--------|
+| `<leader>u` | Toggle árbol de historial de cambios |
+
+### Surround
+
+| Atajo | Modo | Acción |
+|-------|------|--------|
+| `ysiw"` | Normal | Rodear palabra con `"` |
+| `cs"'` | Normal | Cambiar `"` por `'` |
+| `ds"` | Normal | Borrar `"` que rodean |
+| `S"` | Visual | Rodear selección con `"` |
+
+### Spectre — buscar y reemplazar en el proyecto
+
+| Atajo | Modo | Acción |
+|-------|------|--------|
+| `<leader>sr` | Normal | Abrir Spectre |
+| `<leader>sw` | Normal | Buscar palabra bajo el cursor |
+| `<leader>sw` | Visual | Buscar selección actual |
+
+### Folds — nvim-ufo
+
+| Atajo | Acción |
+|-------|--------|
+| `zR` | Abrir todos los folds |
+| `zM` | Cerrar todos los folds |
+| `zK` | Ver contenido del fold sin abrirlo |
+
+### Neotest
+
+| Atajo | Acción |
+|-------|--------|
+| `<leader>nt` | Correr el test más cercano al cursor |
+| `<leader>nT` | Correr todos los tests del archivo |
+| `<leader>no` | Toggle panel de resultados |
+| `<leader>ns` | Toggle resumen de tests |
+
 ### Git — Neogit + Lazygit
 
 | Atajo | Acción |
@@ -109,6 +160,15 @@ Al abrir Neovim por primera vez, [lazy.nvim](https://github.com/folke/lazy.nvim)
 | Plugin | Descripción |
 |--------|-------------|
 | [hop.nvim](https://github.com/smoka7/hop.nvim) | Navegación visual rápida por el buffer |
+| [harpoon2](https://github.com/ThePrimeagen/harpoon) | Marcado y salto rápido entre archivos clave |
+| [undotree](https://github.com/mbbill/undotree) | Árbol visual del historial de cambios |
+| [nvim-surround](https://github.com/kylechui/nvim-surround) | Agregar, cambiar y borrar delimitadores |
+| [nvim-spectre](https://github.com/nvim-pack/nvim-spectre) | Buscar y reemplazar en todo el proyecto |
+| [indent-blankline](https://github.com/lukas-reineke/indent-blankline.nvim) | Guías visuales de indentación |
+| [nvim-ufo](https://github.com/kevinhwang91/nvim-ufo) | Folding moderno por bloques de código |
+| [dashboard-nvim](https://github.com/nvimdev/dashboard-nvim) | Pantalla de inicio con accesos rápidos |
+| [neotest](https://github.com/nvim-neotest/neotest) | Correr y ver resultados de tests inline |
+| [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) | Syntax highlighting avanzado |
 | [git-blame.nvim](https://github.com/f-person/git-blame.nvim) | Blame inline en cada línea mientras navegas |
 | [lazygit.nvim](https://github.com/kdheepak/lazygit.nvim) | Lazygit en ventana flotante dentro de Neovim |
 | [neogit](https://github.com/NeogitOrg/neogit) | Interfaz Git completa dentro de Neovim |
