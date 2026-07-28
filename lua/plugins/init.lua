@@ -41,6 +41,7 @@ return {
   { import = "plugins.spec.mini-ai" },
   { import = "plugins.spec.oil" },
   { import = "plugins.spec.nvim-tree" },
+  { import = "plugins.spec.cmp" },
   { import = "plugins.spec.snippets" },
   { import = "plugins.spec.tabout" },
   { import = "plugins.spec.telescope" },
