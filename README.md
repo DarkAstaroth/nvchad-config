@@ -65,11 +65,12 @@ Al abrir Neovim por primera vez, [lazy.nvim](https://github.com/folke/lazy.nvim)
 | `<leader><leader>c` | Saltar al inicio de líneas |
 | `<leader><leader>l` | Saltar a palabras en la línea actual |
 
-### Git — Neogit
+### Git — Neogit + Lazygit
 
 | Atajo | Acción |
 |-------|--------|
 | `<leader>gg` | Abrir Neogit |
+| `<leader>gl` | Abrir Lazygit (ventana flotante) |
 
 ### Diagnósticos — Trouble
 
@@ -109,6 +110,7 @@ Al abrir Neovim por primera vez, [lazy.nvim](https://github.com/folke/lazy.nvim)
 |--------|-------------|
 | [hop.nvim](https://github.com/smoka7/hop.nvim) | Navegación visual rápida por el buffer |
 | [git-blame.nvim](https://github.com/f-person/git-blame.nvim) | Blame inline en cada línea mientras navegas |
+| [lazygit.nvim](https://github.com/kdheepak/lazygit.nvim) | Lazygit en ventana flotante dentro de Neovim |
 | [neogit](https://github.com/NeogitOrg/neogit) | Interfaz Git completa dentro de Neovim |
 | [trouble.nvim](https://github.com/folke/trouble.nvim) | Panel de errores y diagnósticos LSP |
 | [tiny-code-action](https://github.com/rachartier/tiny-code-action.nvim) | Code actions con preview via Telescope |
