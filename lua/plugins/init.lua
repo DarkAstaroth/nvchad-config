@@ -40,6 +40,7 @@ return {
   { import = "plugins.spec.lint" },
   { import = "plugins.spec.mini-ai" },
   { import = "plugins.spec.oil" },
+  { import = "plugins.spec.nvim-tree" },
   { import = "plugins.spec.zen-mode" },
 
 
