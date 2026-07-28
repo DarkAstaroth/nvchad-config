@@ -8,7 +8,7 @@ local M = {
 }
 
 M.base46 = {
-  theme = "everforest_light",
+  theme = "everforest",
   integrations = {
     'hop',
     'markview',
