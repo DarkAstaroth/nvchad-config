@@ -35,6 +35,12 @@ return {
   { import = "plugins.spec.surround" },
   { import = "plugins.spec.ufo" },
   { import = "plugins.spec.undotree" },
+  { import = "plugins.spec.auto-session" },
+  { import = "plugins.spec.illuminate" },
+  { import = "plugins.spec.lint" },
+  { import = "plugins.spec.mini-ai" },
+  { import = "plugins.spec.oil" },
+  { import = "plugins.spec.zen-mode" },
 
 
   {

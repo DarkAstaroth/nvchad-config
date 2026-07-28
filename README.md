@@ -99,6 +99,23 @@ Al abrir Neovim por primera vez, [lazy.nvim](https://github.com/folke/lazy.nvim)
 | `<leader>sw` | Normal | Buscar palabra bajo el cursor |
 | `<leader>sw` | Visual | Buscar selección actual |
 
+### Oil — file manager
+
+| Atajo | Acción |
+|-------|--------|
+| `<leader>e` | Abrir file manager en directorio actual |
+| `-` | Subir al directorio padre |
+| `<Enter>` | Abrir archivo o entrar a carpeta |
+| `_` | Abrir en directorio raíz |
+
+> Dentro de oil: editar nombres como texto normal, `d` borrar, `r` renombrar. Guardar con `:w` aplica los cambios.
+
+### Zen Mode
+
+| Atajo | Acción |
+|-------|--------|
+| `<leader>z` | Toggle modo zen (pantalla completa + atenúa código inactivo) |
+
 ### Folds — nvim-ufo
 
 | Atajo | Acción |
@@ -160,6 +177,13 @@ Al abrir Neovim por primera vez, [lazy.nvim](https://github.com/folke/lazy.nvim)
 | Plugin | Descripción |
 |--------|-------------|
 | [hop.nvim](https://github.com/smoka7/hop.nvim) | Navegación visual rápida por el buffer |
+| [nvim-lint](https://github.com/mfussenegger/nvim-lint) | Linting con ESLint en tiempo real para JS/TS/Vue |
+| [oil.nvim](https://github.com/stevearc/oil.nvim) | File manager como buffer de texto |
+| [auto-session](https://github.com/rmagatti/auto-session) | Guarda y restaura sesiones por proyecto |
+| [mini.ai](https://github.com/echasnovski/mini.ai) | Text objects avanzados (funciones, bloques, etc.) |
+| [zen-mode.nvim](https://github.com/folke/zen-mode.nvim) | Modo foco sin distracciones |
+| [twilight.nvim](https://github.com/folke/twilight.nvim) | Atenúa código inactivo en zen mode |
+| [vim-illuminate](https://github.com/RRethy/vim-illuminate) | Resalta ocurrencias de la palabra bajo el cursor |
 | [harpoon2](https://github.com/ThePrimeagen/harpoon) | Marcado y salto rápido entre archivos clave |
 | [undotree](https://github.com/mbbill/undotree) | Árbol visual del historial de cambios |
 | [nvim-surround](https://github.com/kylechui/nvim-surround) | Agregar, cambiar y borrar delimitadores |
