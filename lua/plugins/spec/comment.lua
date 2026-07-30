@@ -22,6 +22,7 @@ return {
   end,
   ---@param opts CommentConfig
   config = function(_, opts)
+    require("ts_context_commentstring").setup({ enable_autocmd = false })
     local comment = require "Comment"
     local ts_addon = require "ts_context_commentstring.integrations.comment_nvim"
     opts.pre_hook = ts_addon.create_pre_hook()
